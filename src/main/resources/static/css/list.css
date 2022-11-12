@@ -1,0 +1,26 @@
+.list1 {
+    list-style-type: none;
+    list-style-type: square;
+    border: 10px groove orange;
+    border-radius: 20px 0 20px 0;
+    border-bottom: 20px double red;
+
+
+}
+
+.list2 {
+    list-style-type: none;
+    list-style-image: url(../images/MU.png);
+}
+
+.in {
+    background-color: brown;
+    color: beige;
+    list-style-position: inside;
+}
+
+.out {
+    background-color: brown;
+    color: beige;
+    list-style-position: outside;
+}

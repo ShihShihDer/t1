@@ -1,0 +1,80 @@
+* {
+    font-family: 'Pacifico', font1, cursive;
+    font-size: large;
+}
+
+body {
+    background-color: rgb(120, 120, 120);
+    color: white;
+
+}
+
+.all {
+    width: 1000px;
+    margin: 40px auto;
+}
+
+fieldset {
+    width: 900px;
+    margin: 30px;
+    border: 0 solid;
+    border-radius: 10px;
+    background-color: rgb(100, 100, 100);
+    box-shadow: 0px 0px 10px 5px rgb(70, 70, 70);
+}
+
+input,
+select,
+button {
+    border-radius: 4px;
+    border: 0;
+}
+
+
+legend {
+    margin-left: 20px;
+    padding: 5px 15px;
+    border: 0 solid;
+    border-radius: 10px;
+    background-color: rgb(100, 100, 100);
+    box-shadow: 0px 0px 10px 5px rgb(70, 70, 70);
+
+}
+
+.st1 {
+    width: 800px;
+    border-bottom: 3px dashed white;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.st11 {
+    width: 500px;
+    margin: 20px;
+    /* border-bottom: 3px dashed white;
+    padding-bottom: 10px; */
+}
+
+.sub {
+    width: 450px;
+    margin: 20px;
+    text-align: center;
+}
+
+.t1 {
+    width: 100px;
+    float: left;
+    text-align: right;
+}
+
+textarea {
+    resize: none;
+    border-radius: 5px;
+}
+
+
+.t11 {
+    width: 120px;
+    float: left;
+    text-align: right;
+}

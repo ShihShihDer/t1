@@ -1,0 +1,26 @@
+@font-face {
+    font-family: font3;
+    src: url(../範例/fonts/JustOldFashion.ttf);
+}
+
+.font3 {
+    font-family: font3;
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../範例/fonts/SCRIPTIN.ttf);
+}
+
+.font2 {
+    font-family: font2;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../範例/fonts/Cubic.ttf);
+}
+
+.font1 {
+    font-family: font1;
+}

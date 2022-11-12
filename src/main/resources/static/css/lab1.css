@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(100, 100, 100);
+    color: white;
+
+}
+
+.article {
+    background-color: rgb(50, 50, 50);
+    margin: 40px auto;
+    width: 60%;
+    /* margin: auto 10px; */
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px rgb(40, 40, 40);
+    padding: 50px 80px;
+}
+
+p {
+    /* padding: 20px 30px; */
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 32px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+
+
+h3 {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(100, 100, 100);
+    box-shadow: 0px 0px 10px 10px rgb(40, 40, 40);
+
+    text-align: center;
+    clear: both;
+}
+
+h4 {
+    /* display: inline; */
+    border-radius: 10px;
+    background-color: rgb(70, 70, 70);
+    box-shadow: 0px 0px 10px 10px rgb(40, 40, 40);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.where {
+    text-align: right;
+
+}
+
+
+.titel {
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.titeltext {
+    padding: 5px 10px;
+    background-color: rgb(100, 100, 100);
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgb(40, 40, 40)
+}
+
+.imgpu {
+    /* box-sizing: margin-box; */
+    box-sizing: border-box;
+    width: 100%;
+
+    /* min-width: 10px; */
+    border-radius: 10px;
+    /* border: solid 50px; */
+    /* margin: 10px; */
+    box-shadow: 0px 0px 10px 5px rgb(40, 40, 40);
+}
+
+figcaption {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+figure {
+    width: 50%;
+    background-color: rgb(100, 100, 100);
+    border-radius: 30px;
+    padding: 30px;
+    margin-right: 20px;
+    float: left;
+    box-shadow: 0px 0px 10px 10px rgb(40, 40, 40)
+}

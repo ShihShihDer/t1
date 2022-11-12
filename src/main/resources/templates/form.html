@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" href="styles/form.css"> -->
+    <link rel="stylesheet" href="/css/importtofrom.css">
+
+</head>
+
+<body>
+
+    <div class="all">
+
+        <form action="#" method="get" enctype="multipart/form-data">
+            <fieldset>
+                <legend>個人資料<em>(必填)</em></legend>
+                <div class="st1">
+                    <label for="" class="t1">Blog:</label>
+                    <input type="url" name="hplist" list="urllist">
+                    <datalist id="urllist">
+                        <option value="https://www.youtube.com">youtube</option>
+                        <option value="https://www.netflix.com"></option>
+                        <option value="https://www.disneyplus.com">
+                    </datalist>
+
+                </div>
+                <div class="st1">
+                    <label for="" class="t1">身分證:</label>
+                    <input type="text" maxlength="10" pattern="^[A-Z,a-z]{1}[1-2,8-9]{1}\d{8}" required disabled
+                        value="關閉的功能沒有回傳值">
+                </div>
+                <div class="st1">
+                    <label for="account1" class="t1">姓名:</label>
+                    <input type="text" name="account" id="account1" size="10" placeholder="guest" autofocus
+                        autocomplete="off">
+                </div>
+                <div class="st1">
+                    <label for="" class="t1">性別:</label>
+                    <input type="radio" name="gender" id="m1">
+                    <label for="m1">男</label>
+
+                    <label><input type="radio" name="gender" id="">女</label>
+
+                </div>
+                <div class="st1">
+                    <label for="pw1" class="t1">密碼:</label>
+                    <input type="password" name="pwd" id="pw1" maxlength="6" disabled required>
+                </div>
+                <div class="st1">
+                    <label for="em1" class="t1">E-mail:</label>
+                    <input type="email" name="" id="em1">
+
+                </div>
+                <div class="st1">
+                    <label for="url1" class="t1">URL:</label>
+                    <input type="url" class="" id="url1">
+                </div>
+                <div class="st1">
+                    <label for="col1" class="t1">Color:</label>
+                    <input type="color" class="" id="col1">
+                </div>
+                <div class="st1">
+                    <label for="num1" class="t1">num:</label>
+                    <input type="number" class="" id="num1" min="-20" max="20" step="2">
+                </div>
+                <div class="st1">
+                    <label for="rg1" class="t1">range:</label>
+                    <input type="range" class="" id="rg1" disabled>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>地址<s>(必填)</s></legend>
+                <div class="st1">
+                    <label for="" class="t1">縣市:</label>
+                    <select name="add1" id="" size="2">
+                        <!-- 多選multiple -->
+                        <option value="Tpe">台北</option>
+                        <!-- selected預設 -->
+                        <option value="Hch" selected>新竹</option>
+                        <option value="Tch">台中</option>
+                        <option value="Khh">高雄</option>
+                    </select>
+                </div>
+                <div class="st1">
+                    <label for="add2" class="t1">完整地址:</label>
+                    <input type="text" id="add2" size="30" disabled>
+                </div>
+                <div class="st1">
+                    <label for="" class="t1">照片:</label>
+                    <input type="file" name="" id="" multiple>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>個人資料2</legend>
+                <div class="st1">
+                    <label for="" class="t1">興趣:</label>
+                    <label>
+                        <input type="checkbox" name="hobby" value="music" id="">音樂
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobby" value="movie" id="">電影
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobby" value="sport" id="">運動
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobby" value="sleep" id="">睡覺
+                    </label>
+                </div>
+                <div class="st1">
+                    <label for="comment1" class="t1">意見:</label>
+                    <textarea name="comment" id="comment1" cols="40" rows="5" readonly>唯獨可以選擇複製,不能修改,有回傳值
+                    </textarea>
+                </div>
+            </fieldset>
+            <div class="sub">
+                <button type="submit">送出</button>
+                <!-- <input type="submit" value="送出"> -->
+                <button type="reset">清除</button>
+                <!-- <input type="reset" value="清除"> -->
+            </div>
+        </form>
+
+        <h2 id="description">fd list</h2>
+
+        <form action="#" method="get" enctype="multipart/form-data">
+            <fieldset>
+                <legend>群組標題</legend>
+                <div class="st11">
+                    <label class="t11" for="name2" id="name-label">你的名字</label>
+                    <input id="name2" type="text" required placeholder="請輸入您的名字">
+                </div>
+                <div class="st11">
+                    <label class="t11" for="email2" id="email-label">電子信箱</label>
+                    <input id="email2" type="email" required="required" placeholder="請輸入您的電子信箱">
+                </div>
+                <div class="st11">
+                    <label class="t11" for="number2" id="number-label">數字選單(年齡)</label>
+                    <input id="number2" type="number" inputmode="numeric" min="10" max="99" placeholder="年齡">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>群組標題</legend>
+                <div class="st11">
+                    <label class="t11" for="dropdown2" id="dropdown-label">這是下拉選單</label>
+                    <select id="dropdown2">
+                        <option></option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+                <div class="st11">
+                    <label class="t11" id="radio-label">單選</label>
+                    <label>
+                        <input type="radio" name="radio1" value="單選1">單選1
+                    </label>
+                    <label>
+                        <input type="radio" name="radio1" value="單選2">單選2
+                    </label>
+                    <label>
+                        <input type="radio" name="radio1" value="單選3">單選3
+                    </label>
+                    <label>
+                        <input type="radio" name="radio1" value="單選4">單選4
+                    </label>
+                    <label>
+                        <input type="radio" name="radio1" value="單選5">單選5
+                    </label>
+                </div>
+                <div class="st11">
+                    <label class="t11" id="checkbox-label">複選</label>
+                    <label>
+                        <input type="checkbox" name="checkbox1" value="複選1">複選1
+                    </label>
+                    <label>
+                        <input type="checkbox" name="checkbox1" value="複選2">複選2
+                    </label>
+                    <label>
+                        <input type="checkbox" name="checkbox1" value="複選3">複選3
+                    </label>
+                    <label>
+                        <input type="checkbox" name="checkbox1" value="複選4">複選4
+                    </label>
+                    <label>
+                        <input type="checkbox" name="checkbox1" value="複選5">複選5
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>群組標題</legend>
+                <div class="st11">
+                    <label class="t11" for="comment2" id="texarea-label">評論表單:</label>
+                    <textarea name="comment" id="comment2" cols="40" rows="5">
+      </textarea>
+                </div>
+            </fieldset>
+            <div class="sub">
+                <button type="submit" id="submit" class="">
+                    Submit
+                </button>
+                <button type="reset" id="reset" class="">reset</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

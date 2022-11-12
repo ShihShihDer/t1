@@ -1,0 +1,24 @@
+.st1 {
+    color: red;
+    font-style: italic;
+}
+
+.st2,
+.st3 {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.st4 {
+    color: blanchedalmond;
+    font-size: 200%;
+}
+
+body {
+    background-color: gray;
+}
+
+p {
+    color: gray;
+    font-size: 24px;
+}
